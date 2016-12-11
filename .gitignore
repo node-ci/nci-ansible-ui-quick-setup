@@ -1,0 +1,3 @@
+data/db
+data/projects/**/workspace
+node_modules

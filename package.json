@@ -1,0 +1,26 @@
+{
+  "name": "nci-ansible-ui-quick-setup",
+  "version": "1.0.0",
+  "description": "Sample configuration for nci-ansible-ui deployment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-ci/nci-ansible-ui-quick-setup.git"
+  },
+  "author": "Oleg Korobenko <oleg.korobenko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-ci/nci-ansible-ui-quick-setup/issues"
+  },
+  "homepage": "https://github.com/node-ci/nci-ansible-ui-quick-setup",
+  "dependencies": {
+    "forever": "0.15.1",
+    "leveldown": "1.5.0",
+    "nci": "latest",
+    "nci-ansible-ui": "latest",
+    "nci-mail-notification": "latest",
+    "nci-projects-reloader": "latest",
+    "nci-rest-api-server": "latest",
+    "nci-static-server": "latest",
+    "nci-yaml-reader": "latest"
+  }
+}
