@@ -22,14 +22,14 @@ steps:
       cmd: echo "do something"
 
 playbooks:
-    - name: sample shell calls
+    - name: sample_shell_calls
       path: projects/some_project/playbooks/shell/main.yaml
       inventories:
-          - name: sample inventory
+          - name: sample
             path: projects/some_project/inventories/sample/hosts
 
-    - name: check host availability
+    - name: check_host_availability
       path: projects/some_project/playbooks/ping/main.yaml
       inventories:
-          - name: sample inventory
+          - name: sample
             path: projects/some_project/inventories/sample/hosts
