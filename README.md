@@ -1,7 +1,8 @@
 # nci ansible ui quick setting up
 
 This repo contains sample configuration for setup
-[nci-ansible-ui](https://github.com/node-ci/nci-ansible-ui) quickly.
+[nci-ansible-ui](https://github.com/node-ci/nci-ansible-ui) quickly,
+**node.js >= 10** is required.
 
 Clone quick setup repo, go into it and install dependencies:
 
@@ -9,7 +10,7 @@ Clone quick setup repo, go into it and install dependencies:
 
 git clone https://github.com/node-ci/nci-ansible-ui-quick-setup && \
 cd nci-ansible-ui-quick-setup && \
-npm install
+npm ci --only=prod
 
 ```
 
